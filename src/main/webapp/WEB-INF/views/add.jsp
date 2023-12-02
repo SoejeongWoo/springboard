@@ -7,7 +7,7 @@
 <body>
 <h1>게시글 추가</h1>
 
-<form action="/boards/add" method="POST">
+<form action="/p233_22200461_3/boards/add" method="POST">
     <label for="title">제목:</label>
     <input type="text" id="title" name="title"/>
     <br>

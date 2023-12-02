@@ -35,12 +35,12 @@
     <script>
         function delete_ok(id) {
             var confirm = window.confirm("정말로 삭제하겠습니까?");
-            if (confirm) location.href = '/boards/delete/' + id;
+            if (confirm) location.href = '/p233_22200461_3/boards/delete/' + id;
         }
     </script>
 </head>
 <body>
-<h1>자유게시판</h1>
+<h1>도서 목록 게시판</h1>
 <table id="list" width="90%">
     <tr>
         <th>Id</th>
@@ -62,12 +62,12 @@
             <td>${u.writer}</td>
             <td>${u.content}</td>
             <td>${u.regDate}</td>
-            <td><a href="/boards/update/${u.id}">Edit</a> </td>
+            <td><a href="/p233_22200461_3/boards/update/${u.id}">Edit</a> </td>
             <td><a href= "javascript:delete_ok('${u.id}')">Delete</a> </td>
-            <td><a href="/boards/${u.id}">View</a></td>
+            <td><a href="/p233_22200461_3/boards/${u.id}">View</a></td>
         </tr>
     </c:forEach>
 </table>
-<br/> <a href="/boards/add">Add New Post</a>
+<br/> <a href="/p233_22200461_3/boards/add">Add New Post</a>
 </body>
 </html>

@@ -3,6 +3,6 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-<a href="/boards">게시물로 가기</a>
+<a href="/p233_22200461_3/boards">게시물로 가기</a>
 </body>
 </html>

@@ -7,7 +7,7 @@
 <body>
 <h1>게시글 수정</h1>
 
-<form action="/boards/update/${board.id}" method="POST">
+<form action="/p233_22200461_3/boards/update/${board.id}" method="POST">
     <label for="title">제목:</label>
     <input type="text" id="title" name="title" value=${board.title} />
     <br>
